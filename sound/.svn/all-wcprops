@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/kbs/!svn/ver/10689/trunk/www2/sound
+END
+msg.wav
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/kbs/!svn/ver/10052/trunk/www2/sound/msg.wav
+END
+mailfull.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/kbs/!svn/ver/10689/trunk/www2/sound/mailfull.mp3
+END
+newmail.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/kbs/!svn/ver/10052/trunk/www2/sound/newmail.mp3
+END

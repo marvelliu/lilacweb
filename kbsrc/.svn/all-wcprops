@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/kbs/!svn/ver/10637/trunk/www2/kbsrc
+END
+install.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/kbs/!svn/ver/10637/trunk/www2/kbsrc/install.rdf
+END
+chrome.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/kbs/!svn/ver/8963/trunk/www2/kbsrc/chrome.manifest
+END
+kbsrc.xpi
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/kbs/!svn/ver/10637/trunk/www2/kbsrc/kbsrc.xpi
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/kbs/!svn/ver/10428/trunk/www2/kbsrc/build.sh
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/kbs/!svn/ver/10637/trunk/www2/kbsrc/index.html
+END
+update.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/kbs/!svn/ver/10637/trunk/www2/kbsrc/update.rdf
+END
+config_build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/kbs/!svn/ver/10009/trunk/www2/kbsrc/config_build.sh
+END

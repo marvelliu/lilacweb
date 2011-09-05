@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/kbs/!svn/ver/8963/trunk/www2/kbsrc/locale/en-US
+END
+options.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/kbs/!svn/ver/8945/trunk/www2/kbsrc/locale/en-US/options.dtd
+END
+contents.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/kbs/!svn/ver/8963/trunk/www2/kbsrc/locale/en-US/contents.rdf
+END
+overlay.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/kbs/!svn/ver/8917/trunk/www2/kbsrc/locale/en-US/overlay.dtd
+END

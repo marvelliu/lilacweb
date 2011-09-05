@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="JavaScript" TYPE="text/javascript">
+
+	rnd.today=new Date(); 
+	rnd.seed=rnd.today.getTime(); 
+	function rnd() { 
+		rnd.seed = (rnd.seed*9301+49297) % 233280; 
+		return rnd.seed/(233280.0); 
+    }; 
+   	function rand(number) { 
+		return Math.ceil(rnd()*number); 
+    }; 
+
+	var page = new Array("20070719");
+    //window.parent.frames['main'].location.href= "/welcome/"+page[rand(page.length)-1]+"/";
+    self.location= "/welcome/"+page[rand(page.length)-1]+"/";
+</script>
+</head>
+<body>
+</body>
+</html> 
