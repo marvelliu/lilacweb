@@ -33,7 +33,7 @@ $name = $currentuser["userid"];
 #if(bbs_verified_email_file_exist($name) && $currentuser["reg_email"]!="" && strpos($currentuser["reg_email"],"@"))
 #if(bbs_verified_email_file_exist($name) && $currentuser["reg_email"]!="")
 #echo $currentuser["reg_email"]."---".($currentuser["reg_email"]!="")."===";
-if(bbs_verified_email_file_exist($name) && !$currentuser["reg_email"]=="")
+if(bbs_verified_email_file_exist($name) && !$currentuser["reg_email"]=="" && $currentuser["userlevel"]&BBS_PERM_LOGINOK)
 {
 	echo "已经验证";
 }

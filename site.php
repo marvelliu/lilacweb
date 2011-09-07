@@ -17,6 +17,6 @@ $style_names = array(
 );
 
 // 这个暂时这样.............
-define("BBS_NICKNAME", "水木");
+define("BBS_NICKNAME", "紫丁香");
 
 ?>

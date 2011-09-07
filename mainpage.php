@@ -31,6 +31,10 @@ $boards = $root->child_nodes();
 
 $brdarr = array();
 ?>
+<div align="center">
+<embed src="http://www.lilacbbs.com/ad/banner/468_60_new1.swf" allowFullScreen="true" quality="high" width="468" height="60" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+</div>
 	<div align="center"><table cellpadding="0" cellspacing="0" class="hot_title">
         <tr> 
           <td>&nbsp;&nbsp;本日热点话题讨论 [<a href="rssi.php?h=1" target="_blank">RSS</a>]</td>
