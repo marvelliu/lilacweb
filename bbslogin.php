@@ -32,6 +32,9 @@ switch($error) {
 	case 12:
 		//normal
 		break;
+	case 11:
+		$mainurl = "bbsnew.php";
+		break;
 	case -1:
 		prompt_multilogin();
 		exit;

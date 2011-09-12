@@ -392,6 +392,7 @@
 <?php if (!defined("SITE_NEWSMTH")) { ?>
 <p align="center">
 <a href="http://dev.kcn.cn/" target="_blank"><img src="images/poweredby.gif" border="0" alt="Powered by KBS" /></a>
+<a href="http://join.qq.com/index.php" target="_blank"><img src="/ad/button/tencent.gif" border="0" alt="tencent" /></a>
 </p>
 <?php } ?>
 </body>

@@ -17,17 +17,17 @@ body {
 } */
 
 a:link, .clickable {
-	color: #006699;
+	color: #611880;
 	text-decoration: none;
 	cursor: pointer;
 	cursor: hand; /* stupid IE */
 }
 a:active {
-	color: #006699;
+	color: #611880;
 	text-decoration: underline;
 }
 a:visited {
-	color: #800080;
+	color: #08AC2F;
 	text-decoration: none;
 }
 a:hover {
@@ -236,7 +236,7 @@ table.main tr.rowRe {
 }
 table.main th {
 	text-align: center;
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 	font-weight: normal;
 	border-left: 1px solid #CCCCCC;
@@ -275,8 +275,8 @@ div.docTab {
 	right: 0;
 }
 div.docTab a, div.docTab b {
-	color: #006699;
-	border: 0.1em solid #718BD6;
+	color: #9B13FA;
+	border: 0.1em solid #C781F8;
 	padding: 0.3em;
 	margin: 0 0 0 0.2em;
 	float: right;
@@ -288,11 +288,11 @@ div.docTab a, div.docTab b {
 	-webkit-border-radius: 0.5em 0.5em 0 0;
 }
 div.docTab b {
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 }
 div.docTab a:hover {
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 	text-decoration: none;
 }
@@ -328,12 +328,12 @@ div.article {
 /* bbscon.php */
 div.conPager {
 	width: 98%;
-	border: 1px solid #718BD6;
+	border: 1px solid #C781F8;
 	margin: -1px auto;
 	padding: 0.2em 0.3em;
 	line-height: 21px;
 	height: 21px;
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 	position: relative;
 }
@@ -344,12 +344,12 @@ div.conPager a, div.conPager a:active, div.conPager a:visited, div.conPager a:ho
 /* bbstcon.php styles */
 div.tconPager {
 	width: 98%;
-	border: 1px solid #718BD6;
+	border: 1px solid #C781F8;
 	margin: -1px auto;
 	padding: 0.2em 0.3em;
 	line-height: 1.5em;
 	height: 1.5em;
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 	position: relative;
 }
@@ -399,7 +399,7 @@ body.msgs {
 /* board find box */
 div.float {
 	position: absolute;
-	border: 3px outset #718BD6;
+	border: 3px outset #C781F8;
 }
 
 
@@ -415,7 +415,7 @@ div.recnav {
 
 
 /* some legacy styles */
-.f006 {color: #00b4ae;}
+.f006 {color: #8021A7;}
 .f001 {color: #e87874;} /* bbsxsearch.php might use it */
 .c32 {color: green;}
 .c36 {color: #33a0a0;}
@@ -467,23 +467,23 @@ div.mailH {
 }
 div.mailH a, div.mailH b {
 	color: #006699;
-	border: 0.1em solid #718BD6;
+	border: 0.1em solid #C781F8;
 	padding: 0.5em 0.5em 0.3em 0.5em;
 	margin: 0 0.2em -0.1em 0;
 	float: left;
 	-moz-border-radius: 0.5em 0.5em 0 0;
 }
 div.mailH b {
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 }
 div.mailH a:hover {
-	background-color: #718BD6;
+	background-color: #C781F8;
 	color: white;
 	text-decoration: none;
 }
 div.mail .mailM {
-	border: 0.2em solid #718BD6;
+	border: 0.2em solid #C781F8;
 	padding: 0.5em;
 	-moz-border-radius: 0 0.5em 0.5em 0.5em;
 	clear: both;
@@ -496,7 +496,7 @@ body.wtoogle {
 	background-color: #F6F6F6;
 }
 .wtoogle a, .wtoogle a:active, .wtoogle a:visited {
-	background-color:#718BD6;
+	background-color:#C781F8;
 	font-family: "Times New Roman", Times, serif;
 	font-size:10px;
 	color: #FFFFFF;
@@ -511,7 +511,7 @@ body.wtoogle {
 		z-index: 10;
 		font-size: 85%;
 		padding: 0.1em 0.5em;
-		border: 2px solid #718BD6;
+		border: 2px solid #C781F8;
 		background-color: #f0f0f0;
 		filter: alpha(opacity=80);
 		opacity:.80;

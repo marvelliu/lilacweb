@@ -25,6 +25,7 @@ FONT.c36 {COLOR: #33a0a0;}
 FONT.c37 {COLOR: #000000;}
 a {
 	text-decoration: none;
+	color: #000000;
 }
 
 .MainContentText {
@@ -94,6 +95,7 @@ a {
 .SectionName {
 	font-weight: bold;
 	font-style: bold;
+	color: #
 }
 .SectionList {
 }
@@ -105,25 +107,25 @@ a {
 }
 td.header {
 	font-size: 12px;
-	background-color: #0066CC;
+	background-color: #9B13FA;
 	color: #FFFFFF;
 }
 .header a:link {
 	font-size: 12px;
-	background-color: #0066CC;
+	background-color: #9B13FA;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 .header a:visited {
 	font-size: 12px;
-	background-color: #0066CC;
+	background-color: #9B13FA;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 .header a:hover {
 	font-size: 12px;
 	background-color: #FFFFFF;
-	color: #0066CC;
+	color: #9B13FA;
 	text-decoration: none;
 }
 
@@ -144,7 +146,7 @@ table.recommend_title {
 	margin: 0px;
 	padding: 0px;
 	height: 18px;
-	border: 1px solid #0066CC;
+	border: 1px solid #9B13FA;
 	width: 97%;
     background-repeat: no-repeat;
     background-color: #DEF3FF;
@@ -160,7 +162,7 @@ table.hot_title {
 	margin: 0px;
 	padding: 0px;
 	height: 18px;
-	border: 1px solid #0066CC;
+	border: 1px solid #9B13FA;
 	width: 97%;
     background-repeat: no-repeat;
     background-color: #DEF3FF;
@@ -180,7 +182,7 @@ table.type_title {
 	margin: 0px;
 	padding: 0px;
 	height: 18px;
-	border: 1px solid #0066CC;
+	border: 1px solid #9B13FA;
 	width: 97%;
     background-repeat: no-repeat;
     background-color: #DEF3FF;
@@ -193,7 +195,7 @@ table.type_title td {
 table.helper {
 	font-size: 12px;
 	color: #FFFFFF;
-	border: 1px solid #0066CC;
+	border: 1px solid #9B13FA;
 }
 table.helpert {
 	font-size: 12px;
@@ -212,7 +214,7 @@ td.helpert_middle {
 	font-size: 12px;
 	color: #FFFFFF;
 	border: 0px;
-	background-color: #0066CC;
+	background-color: #9B13FA;
 	width: 66px;
 }
 td.helpert_right {
@@ -241,5 +243,5 @@ li.rec {
 	vertical-align: top;
 }
 .vline {
-	background-color: #0066CC;
+	background-color: #9B13FA;
 }

@@ -14,7 +14,8 @@ if(!strcmp($currentuser["userid"],"guest"))
 	exit();
 }
 
-if($currentuser["userlevel"]&BBS_PERM_LOGINOK )
+if(bbs_verified_email_file_exist($name) && !$currentuser["reg_email"]=="" && $currentuser["userlevel"]&BBS_PERM_LOGINOK)
+//if($currentuser["userlevel"]&BBS_PERM_LOGINOK )
 {
 	header("Location: ".MAINPAGE_FILE);
 	exit();
@@ -44,14 +45,14 @@ html_init("gb2312","","",1);
 <ul>激活帐户，激活码在您的注册信箱内，如果您还未收到本站发出的激活码，请点击下面重新发送激活码。</ul>
 <ul>邮箱: <input type="text" value="<?php echo $currentuser["email"]; ?>" id="txtemail" name="txtemail" /></ul>
 <ul>如果你在激活账户的时候遇到问题，请注意以下情况：</ul>
-<ul>已知问题：gmail暂时可能无法收信，可能需要几天。</ul>
+<ul><b>调试中,有任何问题，请到bbshelp版发文求助。</b></ul>
+<ul><b>注，前几天由于受垃圾邮件的影响，激活信件可能无法收到，现在可以了，同学们可以试一下，如果有问题请到bbshelp版发文</b></ul>
 <ul>已知问题：有的用户可能需要重新验证一遍，如果你两次验证后，还是没有发文权限，请</ul>
 	<li>点击发送激活邮件</li>
 	<li>退出登录</li>
 	<li>接收邮件，激活</li>
 	<li>重新登录</li>
 	<li>务必按照顺序，否则可能需要重试</li>
-<ul>如果还是有问题，请到bbshelp版发文求助。</ul>
 <input type="submit" value="提交" id="submit" name="submit"/>
 </form>
 
